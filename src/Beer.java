@@ -15,6 +15,10 @@ public class Beer {
         this.data = data;
     }
 
+    /**
+     * Overriding toString to call toString on every Data instance which the ArrayList contains.
+     * @return a String which contains every information of the Data instances.
+     */
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
